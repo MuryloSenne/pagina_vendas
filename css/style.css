@@ -198,7 +198,7 @@ header .right .imagem img {
     background-image: none;
     /* Define a imagem de fundo como nenhuma */
     background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, #1b8b9d 43%, rgba(172, 73, 73, 1) 90%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, #1b8b9d 43%, rgb(134, 130, 126) 90%);
     border-radius: 22px;
     box-shadow: 5px 18px 27px grey;
 
@@ -366,7 +366,7 @@ header .right .imagem img {
 }
 
 #sm-banner .banner-box:hover button{
-    background: #2813a0;
+    background: #5a4ab8;
     border: 1px solid #2813a0;
     
     
@@ -385,3 +385,25 @@ header .right .imagem img {
     animation: none;
     
 }
+
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    height: 70px;
+    width: 300px;
+    flex: 0  300px;
+    margin: 24px;
+    padding: 230px;
+    background-color: #665151;
+    border-radius: 15px;
+    box-shadow: 12px 12px 12px rgb(73, 73, 73);
+  }
