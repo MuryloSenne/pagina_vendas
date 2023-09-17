@@ -3,7 +3,7 @@ const cards = document.querySelectorAll('.card');
 let currentIndex = 0;
 
 function showCard(index) {
-  const offset = -index * cards[0].offsetWidth;
+  const offset = index * cards[0].offsetWidth;
   carousel.style.transform = `translateX(${offset}px)`;
 }
 
