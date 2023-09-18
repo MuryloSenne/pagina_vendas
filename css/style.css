@@ -415,3 +415,9 @@ header .right .imagem img {
     border-radius: 15px; /* Apply border-radius to match the card */
     background-color: #9b9b9b;
   }
+
+  .card img:hover {
+    scale: 1.5;
+    box-shadow: 12px 12px 12px rgb(73, 73, 73);
+    border-radius: 15px;
+  }
