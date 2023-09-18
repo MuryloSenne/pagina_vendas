@@ -398,12 +398,20 @@ header .right .imagem img {
   }
   
   .card {
-    height: 70px;
+    height: 270px;
     width: 300px;
-    flex: 0  300px;
     margin: 24px;
-    padding: 230px;
-    background-color: #665151;
+    padding: 0; /* Changed padding to 0 to avoid unwanted spacing */
+    background-color: #9b9b9b;
     border-radius: 15px;
     box-shadow: 12px 12px 12px rgb(73, 73, 73);
+  }
+  
+  .card img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally within the card */
+    height: 270px;
+    width: 300px;
+    border-radius: 15px; /* Apply border-radius to match the card */
+    background-color: #9b9b9b;
   }

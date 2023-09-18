@@ -17,4 +17,4 @@ function prevCard() {
   showCard(currentIndex);
 }
 
-setInterval(nextCard, 8000); // Alterna para o próximo card a cada 3 segundos
+setInterval(nextCard, 1000); // Alterna para o próximo card a cada 3 segundos
